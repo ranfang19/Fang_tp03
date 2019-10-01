@@ -24,6 +24,5 @@ public class MainActivity extends AppCompatActivity {
         Button bt = (Button) findViewById(R.id.myButton); bt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) { tx.setBackgroundColor(Color.YELLOW);
             } });
-
     }
 }
