@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         tx.setText(message);
 
         Button bt = (Button) findViewById(R.id.myButton); bt.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) { tx.setBackgroundColor(Color.RED);
+            public void onClick(View v) { tx.setBackgroundColor(Color.YELLOW);
             } });
 
     }
